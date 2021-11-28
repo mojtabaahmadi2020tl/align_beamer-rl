@@ -1,0 +1,40 @@
+% M.ahmadi 1400.09.07
+% @Tex_Ahmadi
+% LuaLaTeX
+\documentclass[babel={layout=lists},10pt]{beamer-rl}
+\babelprovide[import,main,mapdigits]{persian}
+\babelfont{sf}{Yas}
+
+\usetheme{Berkeley}
+\usefonttheme{professionalfonts}
+% حل مشکل محیط align*
+%\input{command-Ahmadi}
+
+%%%%
+\title{یک اسلاید نمونه}
+\subtitle{زیرعنوان اسلاید}
+\author{مجتبیٰ احمدی}
+
+\institute[پیام‌نو‌ر مشگین شهر]{دانشگاه: پیام‌نو‌ر مشگین شهر}
+\date{\today}
+%\date{28 بهمن 1395}
+%%%%%%%%%%
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+\section{عنوان بخش}
+\begin{frame}
+این یک اسلاید هست.
+\begin{block}{عنوان بلوک}
+متن برای تست
+\begin{align*}
+A & = \frac{\pi r^2}{2} \\
+ & = \frac{1}{2} \pi r^2
+\end{align*}
+\end{block}
+\end{frame}
+
+\end{document}
